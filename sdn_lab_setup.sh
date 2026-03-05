@@ -31,7 +31,7 @@ sudo apt-get update
 sudo apt-get install -y python3.9 python3.9-venv python3.9-dev python3.9-distutils
 
 # Create virtual environment
-python3.9 -m venv /opt/ryu-py39
+python3.9 -m venv ~/ryu-py39
 source /opt/ryu-py39/bin/activate
 
 # Pin compatible toolchain
